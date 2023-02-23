@@ -1,0 +1,2 @@
+pip3 install pysimplegui
+sudo zypper install python3-tk
