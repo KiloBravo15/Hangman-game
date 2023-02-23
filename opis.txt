@@ -1,0 +1,29 @@
+========================== Wisielec ==========================
+
+Gracz łączy się do serwera, podając swój nick. Jeśli nazwa
+jest zajęta, serwer odrzuca próbę połączenia.
+
+Po udanym połączeniu, gracz trafia do pokoju gry (który ma
+nieograniczoną pojemność, tj. grać może równocześnie dowolnie
+dużo graczy). Pokój gry jest jeden wspólny dla wszystkich
+i tworzy się przy uruchomieniu serwera.
+
+Gra trwa cały czas, dopóki w pokoju jest choćby jeden gracz.
+W trakcie rozgrywki do pokoju mogą dołączać nowe osoby. Gracze
+mogą również opuścić grę w dowolnym momencie.
+
+Wszyscy gracze widzą aktualnie zgadywane słowo (z niektórymi
+lub wszystkimi literami zamienionymi na znak podkreślenia).
+Każdy gracz widzi dodatkowo aktualną tablicę wyników oraz
+wisielce wszystkich graczy. Wszyscy odgadują litery na zasadzie
+kto pierwszy ten lepszy - w tym samym wspólnym haśle.
+
+Za odgadnięcie litery gracz otrzymuje po punkcie za każde jej
+wystąpienie. Błąd oznacza dorysowanie fragmentu wisielca.
+Uzbieranie 6 fragmentów (tyle ma cały wisielec) powoduje przegraną.
+
+Kiedy wszystkie litery hasła zostaną odgadnięte, serwer losuje nowe
+słowo. Uzbierane punkty i wisielce nie zostają wymazane.
+
+Gra kończy się, gdy odpadnie z niej przedostatni gracz. Ostatni
+staje się zwycięzcą.
